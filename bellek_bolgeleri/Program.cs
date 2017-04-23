@@ -30,7 +30,7 @@ namespace bellek_bolgeleri
             Console.WriteLine("arb2 nesne örneğine ait arabanın adı: {0}", arb2.ad);
             Console.WriteLine("arb2 nesne örneğine ait arabanın beygir gücü: {0}", arb2.beygir_gucu);
             Console.WriteLine("arb1 nesne örneğine ait arabanın modeli: {0}", arb1.modeli);
-            Console.WriteLine("**********************************************************\n");
+            Console.WriteLine("************************************************************\n");
             //sonuç: arb1 nesnesinin değerleri yerine arb2 nesnesinin değerlerini ekrana yazar
 
             //NEDEN?: Çünkü 22.satırda referans tipli değişkenlerden arb1, arb2 ye aktarılmıştır(eşitlenmiştir).Böylece stack alanındaki iki nesne nin adresleride birbirine eşitlenmiştir. Adresler eşit oluncada arb1 ye ait ilk değerler heap ten silinip yerine arb2 nin değerlerini alır.(bellek için heap alanında değerler kalıcı değildir!,stack bölgesindeki değer ve veri tipleri kalıcıdır)
